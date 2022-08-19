@@ -48,8 +48,9 @@ int decode_images(const FileData &img_data, const std::vector<size_t> &img_len, 
                     RGB, YUV등의 데이터 형식은 "decode_params_t &params" 에 의해 결정 됨
 ```
 
-- 주요 함수  : write_images(...)    
-int write_images(std::vector<nvjpegImage_t> &iout, std::vector<int> &widths, std::vector<int> &heights, decode_params_t &params, FileNames &filenames)
+- 주요 함수  : write_images(...)     
+int write_images(std::vector<nvjpegI1mage_t> &iout, std::vector<int> &widths, std::vector<int> &heights, decode_params_t &params, FileNames &filenames)
+```
 기능 : 디코딩 된 로 데이터 버퍼를 디스크에 기록 함
 입력 데이터 : std::vector<nvjpegImage_t> &iout
              의미 : 디코딩 완료된 로 데이터의 백터
@@ -57,7 +58,7 @@ int write_images(std::vector<nvjpegImage_t> &iout, std::vector<int> &widths, std
              의미 : 디코딩 완료된 로 데이터의 가로 화소 크기 백터
 입력 데이터 : std::vector<int> &heights
              의미 : 디코딩 완료된 로 데이터의 세로 화소 크기 백터
-
+```
 
 
 ## Flow chart
