@@ -269,9 +269,8 @@ double process_images(FileNames &image_names, decode_params_t &params,
   return EXIT_SUCCESS;
 }
 
-
+//commented by kiokahn
 int main(int argc, const char *argv[]) {
-
 
   int pidx;
 
