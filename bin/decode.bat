@@ -1,0 +1,1 @@
+nvjpegDecoder.exe -i G:\source\CUDALibrarySamples\nvJPEG\nvJPEG-Decoder_build\Debug\img\ -o G:\source\CUDALibrarySamples\nvJPEG\nvJPEG-Decoder_build\Debug\out\ -fmt rgb
