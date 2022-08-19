@@ -60,10 +60,8 @@ int write_images(std::vector<nvjpegImage_t> &iout, std::vector<int> &widths, std
 
 
 
-## Diagrams
+## Flow chart
 
-
-And this will produce a flow chart:
 
 ```mermaid
 graph LR
