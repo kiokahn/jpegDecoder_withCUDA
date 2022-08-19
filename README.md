@@ -8,7 +8,7 @@ Modified By Kiok Ahn (kiokahn@gazzi.ai, kiokahn76@gmail.com)
 
 # Test
 
-Reference : decode.bat
+Reference : decode.bat    
 Example : 
 ```
 nvjpegDecoder.exe -i G:\source\CUDALibrarySamples\nvJPEG\nvJPEG-Decoder_build\Debug\img\ -o G:\source\CUDALibrarySamples\nvJPEG\nvJPEG-Decoder_build\Debug\out\ -fmt rgb
